@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Notification - ibtrack WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ibtrack WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ibtrack.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A2800A6F1C0274C200A13C71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2800A831C0274C300A13C71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2800A8E1C0274C300A13C71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2800A971C0274C300A13C71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

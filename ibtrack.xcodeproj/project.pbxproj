@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2800A741C0274C200A13C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800A731C0274C200A13C71 /* AppDelegate.swift */; };
+		A2800A761C0274C200A13C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800A751C0274C200A13C71 /* ViewController.swift */; };
+		A2800A791C0274C200A13C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2800A771C0274C200A13C71 /* Main.storyboard */; };
+		A2800A7B1C0274C200A13C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2800A7A1C0274C200A13C71 /* Assets.xcassets */; };
+		A2800A7E1C0274C200A13C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2800A7C1C0274C200A13C71 /* LaunchScreen.storyboard */; };
+		A2800A891C0274C300A13C71 /* ibtrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800A881C0274C300A13C71 /* ibtrackTests.swift */; };
+		A2800A941C0274C300A13C71 /* ibtrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800A931C0274C300A13C71 /* ibtrackUITests.swift */; };
+		A2800A991C0274C300A13C71 /* ibtrack WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A2800A981C0274C300A13C71 /* ibtrack WatchKit App.app */; };
+		A2800A9F1C0274C300A13C71 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2800A9D1C0274C300A13C71 /* Interface.storyboard */; };
+		A2800AA11C0274C300A13C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2800AA01C0274C300A13C71 /* Assets.xcassets */; };
+		A2800AA81C0274C300A13C71 /* ibtrack WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A2800AA71C0274C300A13C71 /* ibtrack WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2800AAF1C0274C300A13C71 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800AAE1C0274C300A13C71 /* InterfaceController.swift */; };
+		A2800AB11C0274C300A13C71 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800AB01C0274C300A13C71 /* ExtensionDelegate.swift */; };
+		A2800AB31C0274C300A13C71 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2800AB21C0274C300A13C71 /* NotificationController.swift */; };
+		A2800AB51C0274C300A13C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2800AB41C0274C300A13C71 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2800A851C0274C300A13C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2800A681C0274C200A13C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2800A6F1C0274C200A13C71;
+			remoteInfo = ibtrack;
+		};
+		A2800A901C0274C300A13C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2800A681C0274C200A13C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2800A6F1C0274C200A13C71;
+			remoteInfo = ibtrack;
+		};
+		A2800A9A1C0274C300A13C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2800A681C0274C200A13C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2800A971C0274C300A13C71;
+			remoteInfo = "ibtrack WatchKit App";
+		};
+		A2800AA91C0274C300A13C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2800A681C0274C200A13C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2800AA61C0274C300A13C71;
+			remoteInfo = "ibtrack WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2800ABC1C0274C300A13C71 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A2800AA81C0274C300A13C71 /* ibtrack WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800AC01C0274C300A13C71 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A2800A991C0274C300A13C71 /* ibtrack WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A2800A701C0274C200A13C71 /* ibtrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ibtrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2800A731C0274C200A13C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2800A751C0274C200A13C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2800A781C0274C200A13C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2800A7A1C0274C200A13C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2800A7D1C0274C200A13C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2800A7F1C0274C300A13C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2800A841C0274C300A13C71 /* ibtrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibtrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2800A881C0274C300A13C71 /* ibtrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibtrackTests.swift; sourceTree = "<group>"; };
+		A2800A8A1C0274C300A13C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2800A8F1C0274C300A13C71 /* ibtrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibtrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2800A931C0274C300A13C71 /* ibtrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibtrackUITests.swift; sourceTree = "<group>"; };
+		A2800A951C0274C300A13C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2800A981C0274C300A13C71 /* ibtrack WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ibtrack WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2800A9E1C0274C300A13C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A2800AA01C0274C300A13C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2800AA21C0274C300A13C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2800AA71C0274C300A13C71 /* ibtrack WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ibtrack WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2800AAD1C0274C300A13C71 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A2800AAE1C0274C300A13C71 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A2800AB01C0274C300A13C71 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A2800AB21C0274C300A13C71 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A2800AB41C0274C300A13C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2800AB61C0274C300A13C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2800A6D1C0274C200A13C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A811C0274C300A13C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A8C1C0274C300A13C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800AA41C0274C300A13C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2800A671C0274C200A13C71 = {
+			isa = PBXGroup;
+			children = (
+				A2800A721C0274C200A13C71 /* ibtrack */,
+				A2800A871C0274C300A13C71 /* ibtrackTests */,
+				A2800A921C0274C300A13C71 /* ibtrackUITests */,
+				A2800A9C1C0274C300A13C71 /* ibtrack WatchKit App */,
+				A2800AAB1C0274C300A13C71 /* ibtrack WatchKit Extension */,
+				A2800A711C0274C200A13C71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2800A711C0274C200A13C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2800A701C0274C200A13C71 /* ibtrack.app */,
+				A2800A841C0274C300A13C71 /* ibtrackTests.xctest */,
+				A2800A8F1C0274C300A13C71 /* ibtrackUITests.xctest */,
+				A2800A981C0274C300A13C71 /* ibtrack WatchKit App.app */,
+				A2800AA71C0274C300A13C71 /* ibtrack WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2800A721C0274C200A13C71 /* ibtrack */ = {
+			isa = PBXGroup;
+			children = (
+				A2800A731C0274C200A13C71 /* AppDelegate.swift */,
+				A2800A751C0274C200A13C71 /* ViewController.swift */,
+				A2800A771C0274C200A13C71 /* Main.storyboard */,
+				A2800A7A1C0274C200A13C71 /* Assets.xcassets */,
+				A2800A7C1C0274C200A13C71 /* LaunchScreen.storyboard */,
+				A2800A7F1C0274C300A13C71 /* Info.plist */,
+			);
+			path = ibtrack;
+			sourceTree = "<group>";
+		};
+		A2800A871C0274C300A13C71 /* ibtrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2800A881C0274C300A13C71 /* ibtrackTests.swift */,
+				A2800A8A1C0274C300A13C71 /* Info.plist */,
+			);
+			path = ibtrackTests;
+			sourceTree = "<group>";
+		};
+		A2800A921C0274C300A13C71 /* ibtrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2800A931C0274C300A13C71 /* ibtrackUITests.swift */,
+				A2800A951C0274C300A13C71 /* Info.plist */,
+			);
+			path = ibtrackUITests;
+			sourceTree = "<group>";
+		};
+		A2800A9C1C0274C300A13C71 /* ibtrack WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A2800A9D1C0274C300A13C71 /* Interface.storyboard */,
+				A2800AA01C0274C300A13C71 /* Assets.xcassets */,
+				A2800AA21C0274C300A13C71 /* Info.plist */,
+			);
+			path = "ibtrack WatchKit App";
+			sourceTree = "<group>";
+		};
+		A2800AAB1C0274C300A13C71 /* ibtrack WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A2800AAE1C0274C300A13C71 /* InterfaceController.swift */,
+				A2800AB01C0274C300A13C71 /* ExtensionDelegate.swift */,
+				A2800AB21C0274C300A13C71 /* NotificationController.swift */,
+				A2800AB41C0274C300A13C71 /* Assets.xcassets */,
+				A2800AB61C0274C300A13C71 /* Info.plist */,
+				A2800AAC1C0274C300A13C71 /* Supporting Files */,
+			);
+			path = "ibtrack WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A2800AAC1C0274C300A13C71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2800AAD1C0274C300A13C71 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2800A6F1C0274C200A13C71 /* ibtrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2800AC11C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrack" */;
+			buildPhases = (
+				A2800A6C1C0274C200A13C71 /* Sources */,
+				A2800A6D1C0274C200A13C71 /* Frameworks */,
+				A2800A6E1C0274C200A13C71 /* Resources */,
+				A2800AC01C0274C300A13C71 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2800A9B1C0274C300A13C71 /* PBXTargetDependency */,
+			);
+			name = ibtrack;
+			productName = ibtrack;
+			productReference = A2800A701C0274C200A13C71 /* ibtrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2800A831C0274C300A13C71 /* ibtrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2800AC41C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrackTests" */;
+			buildPhases = (
+				A2800A801C0274C300A13C71 /* Sources */,
+				A2800A811C0274C300A13C71 /* Frameworks */,
+				A2800A821C0274C300A13C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2800A861C0274C300A13C71 /* PBXTargetDependency */,
+			);
+			name = ibtrackTests;
+			productName = ibtrackTests;
+			productReference = A2800A841C0274C300A13C71 /* ibtrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2800A8E1C0274C300A13C71 /* ibtrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2800AC71C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrackUITests" */;
+			buildPhases = (
+				A2800A8B1C0274C300A13C71 /* Sources */,
+				A2800A8C1C0274C300A13C71 /* Frameworks */,
+				A2800A8D1C0274C300A13C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2800A911C0274C300A13C71 /* PBXTargetDependency */,
+			);
+			name = ibtrackUITests;
+			productName = ibtrackUITests;
+			productReference = A2800A8F1C0274C300A13C71 /* ibtrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A2800A971C0274C300A13C71 /* ibtrack WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2800ABD1C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrack WatchKit App" */;
+			buildPhases = (
+				A2800A961C0274C300A13C71 /* Resources */,
+				A2800ABC1C0274C300A13C71 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2800AAA1C0274C300A13C71 /* PBXTargetDependency */,
+			);
+			name = "ibtrack WatchKit App";
+			productName = "ibtrack WatchKit App";
+			productReference = A2800A981C0274C300A13C71 /* ibtrack WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A2800AA61C0274C300A13C71 /* ibtrack WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2800AB91C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrack WatchKit Extension" */;
+			buildPhases = (
+				A2800AA31C0274C300A13C71 /* Sources */,
+				A2800AA41C0274C300A13C71 /* Frameworks */,
+				A2800AA51C0274C300A13C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ibtrack WatchKit Extension";
+			productName = "ibtrack WatchKit Extension";
+			productReference = A2800AA71C0274C300A13C71 /* ibtrack WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2800A681C0274C200A13C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Milhouse;
+				TargetAttributes = {
+					A2800A6F1C0274C200A13C71 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A2800A831C0274C300A13C71 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A2800A6F1C0274C200A13C71;
+					};
+					A2800A8E1C0274C300A13C71 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A2800A6F1C0274C200A13C71;
+					};
+					A2800A971C0274C300A13C71 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A2800AA61C0274C300A13C71 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A2800A6B1C0274C200A13C71 /* Build configuration list for PBXProject "ibtrack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2800A671C0274C200A13C71;
+			productRefGroup = A2800A711C0274C200A13C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2800A6F1C0274C200A13C71 /* ibtrack */,
+				A2800A831C0274C300A13C71 /* ibtrackTests */,
+				A2800A8E1C0274C300A13C71 /* ibtrackUITests */,
+				A2800A971C0274C300A13C71 /* ibtrack WatchKit App */,
+				A2800AA61C0274C300A13C71 /* ibtrack WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2800A6E1C0274C200A13C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800A7E1C0274C200A13C71 /* LaunchScreen.storyboard in Resources */,
+				A2800A7B1C0274C200A13C71 /* Assets.xcassets in Resources */,
+				A2800A791C0274C200A13C71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A821C0274C300A13C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A8D1C0274C300A13C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A961C0274C300A13C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800AA11C0274C300A13C71 /* Assets.xcassets in Resources */,
+				A2800A9F1C0274C300A13C71 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800AA51C0274C300A13C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800AB51C0274C300A13C71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2800A6C1C0274C200A13C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800A761C0274C200A13C71 /* ViewController.swift in Sources */,
+				A2800A741C0274C200A13C71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A801C0274C300A13C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800A891C0274C300A13C71 /* ibtrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800A8B1C0274C300A13C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800A941C0274C300A13C71 /* ibtrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2800AA31C0274C300A13C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2800AB31C0274C300A13C71 /* NotificationController.swift in Sources */,
+				A2800AB11C0274C300A13C71 /* ExtensionDelegate.swift in Sources */,
+				A2800AAF1C0274C300A13C71 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2800A861C0274C300A13C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2800A6F1C0274C200A13C71 /* ibtrack */;
+			targetProxy = A2800A851C0274C300A13C71 /* PBXContainerItemProxy */;
+		};
+		A2800A911C0274C300A13C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2800A6F1C0274C200A13C71 /* ibtrack */;
+			targetProxy = A2800A901C0274C300A13C71 /* PBXContainerItemProxy */;
+		};
+		A2800A9B1C0274C300A13C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2800A971C0274C300A13C71 /* ibtrack WatchKit App */;
+			targetProxy = A2800A9A1C0274C300A13C71 /* PBXContainerItemProxy */;
+		};
+		A2800AAA1C0274C300A13C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2800AA61C0274C300A13C71 /* ibtrack WatchKit Extension */;
+			targetProxy = A2800AA91C0274C300A13C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2800A771C0274C200A13C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2800A781C0274C200A13C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2800A7C1C0274C200A13C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2800A7D1C0274C200A13C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A2800A9D1C0274C300A13C71 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2800A9E1C0274C300A13C71 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2800AB71C0274C300A13C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2800AB81C0274C300A13C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2800ABA1C0274C300A13C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ibtrack WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrack.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A2800ABB1C0274C300A13C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ibtrack WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrack.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A2800ABE1C0274C300A13C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ibtrack_WatchKit_Extension;
+				INFOPLIST_FILE = "ibtrack WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrack.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A2800ABF1C0274C300A13C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = ibtrack_WatchKit_Extension;
+				INFOPLIST_FILE = "ibtrack WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrack.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A2800AC21C0274C300A13C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ibtrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2800AC31C0274C300A13C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ibtrack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2800AC51C0274C300A13C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ibtrackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibtrack.app/ibtrack";
+			};
+			name = Debug;
+		};
+		A2800AC61C0274C300A13C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ibtrackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibtrack.app/ibtrack";
+			};
+			name = Release;
+		};
+		A2800AC81C0274C300A13C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ibtrackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ibtrack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2800AC91C0274C300A13C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ibtrackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carnivalinparadise.ibtrackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ibtrack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2800A6B1C0274C200A13C71 /* Build configuration list for PBXProject "ibtrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2800AB71C0274C300A13C71 /* Debug */,
+				A2800AB81C0274C300A13C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2800AB91C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrack WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2800ABA1C0274C300A13C71 /* Debug */,
+				A2800ABB1C0274C300A13C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2800ABD1C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrack WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2800ABE1C0274C300A13C71 /* Debug */,
+				A2800ABF1C0274C300A13C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2800AC11C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2800AC21C0274C300A13C71 /* Debug */,
+				A2800AC31C0274C300A13C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2800AC41C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2800AC51C0274C300A13C71 /* Debug */,
+				A2800AC61C0274C300A13C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2800AC71C0274C300A13C71 /* Build configuration list for PBXNativeTarget "ibtrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2800AC81C0274C300A13C71 /* Debug */,
+				A2800AC91C0274C300A13C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2800A681C0274C200A13C71 /* Project object */;
+}
